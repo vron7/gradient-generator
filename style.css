@@ -1,5 +1,5 @@
 body {
-	font: 'Raleway', sans-serif;
+    font-family: 'Teko', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
@@ -9,7 +9,8 @@ body {
 }
 
 h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
+
+    font: 600 3.5em 'Teko', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
@@ -18,10 +19,36 @@ h1 {
 }
 
 h3 {
-	font: 900 1em 'Raleway', sans-serif;
+	font: 900 1em 'Teko', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
     letter-spacing: 0.01em;
 
 }
+.panel{
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 9px 10px 33px -2px rgba(0,0,0,0.65);
+}
+button {
+    font: 400 1em 'Teko', sans-serif;
+    border: none; 
+    background-color: rgb(201, 144, 144); 
+    color: black; 
+    font-size: 20px;
+    border-radius: 3px; 
+    padding: 5px 20px;
+    margin-left: 10px;
+    margin-top: 40px;
+    transition: 250ms all;
+    box-shadow: 9px 10px 33px 0px rgba(0,0,0,0.65);
+  }
+  button:hover {
+    border: none; 
+    background-color:rgb(223, 184, 184); 
+  }
