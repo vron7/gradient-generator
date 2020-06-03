@@ -1,0 +1,2 @@
+# gradient-generator
+Udemy assignment
